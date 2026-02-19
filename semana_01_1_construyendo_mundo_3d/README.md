@@ -8,14 +8,26 @@
 En unity toma un archivo 3D con extención .OBJ hayando su numero de vertices, triangulos y sub-mayas, y despues trazando sus aristas con Gizmos.
 
 ### Implementaciones:
+
+#### Unity
+
 En la herramienta Unity se importo un archivo con extención .OBJ de nombre squirtel_cdtrader cuyo contenido es modelo 3D del Pokemon Squirtel, sobre este modelo se ejecutan dos scripts.
 1. *Print_info*: El primer script imprime en consola el numero de vertices, triangulos y sub-mayas del modelo 3D. El resultado se puede ver en el video *Num_of_vertices* en la carpeta *media*
 2. *Gizmos_view*: El segundo script activa el modo wireframe (permitiendo desde el modo editor ver las aristas del modelo) usando Gizmos. El resultado se puede ver en el video *Visualizacion_wireframe* en la carpeta *media*
 
+#### Python
+
+En python usando google collab se importaron 3 archivos 3D con extensiones .OBJ, .STL y .GLB, donde en los tres casos se combierte el modelos 3D a una maya (si es una escena) se denotan sus vertices, aristas y caras y por ultimo se muestra el numero de caras, vertices y aristas.
+
 ### Resultados Visuales
+
+#### Unity
+
 En la carpeta *media* se encuentran dos videos, correspondientes a las ejecuciones de los dos scripts implementados,
 1. *Num_of_vertices* Muestra la ejecución del script al ejecutar el juego en unity, mostrando en consola la informacion del numero de vertices, triangulos y sub-mayas.
 2. *Visualizacion_wireframe* Muyestra la eejcución del script permitiendo que desde el modo editor se puedan visualizar las aristas del modelo.
+
+#### Python
 
 ### Código relevante
 
