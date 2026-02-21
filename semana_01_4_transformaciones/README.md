@@ -18,6 +18,10 @@ En la herramienta de python con numpy y matplat se crea al figura de un cubo, so
 
 En Trheejs se crea un cubo detro de un grupo, rotando el grupo y rotando el cubo sobre su propio eje, mientras se escqala su tamaño siguiendo una funcion senoidal.
 
+#### Prossesing
+
+En prossesing se crearon 3 figuras, dos elipses y un cuadrado, una elipse no tiene transformaciones, mientras la otra elipse y el cuadrado se le aplico traslasion, rotacion y escalado.
+
 ### Implementaciones:
 
 #### Unity
@@ -52,6 +56,16 @@ Terminada la iteracion se toma los frames de cada fraccion de transformación pa
 
 4. Se escala el cubo siguiendo el comportamiento de una funcion senoidal que depende del reloj de ejecucion.
 
+#### Prossesing
+
+Sobre uno de los Elipses y el cuadrado se aplicaron las transformaciones:
+
+1. Traslasion hacia cordenadas (x,y).
+
+2. Rotacion seguin el framerate.
+
+3. Escalado segun el seno del framerate para el cuadrado y segun el seno de millis() para el elipse.
+
 ### Resultados Visuales
 
 #### Unity
@@ -65,6 +79,10 @@ En la carpeta *media* se encuentra un archivo de nombre *python_transformacion* 
 #### Threejs
 
 En la carpeta *media* hay dos archivos, el de nombre *Threejs_rotacion* que muestra la rotacion del cubo en una trayectoria circular y alrededor de su propio eje y *Threejs_rota_escala* que muestra que muestra la rotacion del cubo en una trayectoria circular, alrededor de su propio eje y su escalamiento.
+
+#### Prossesing
+
+En la carpeta *media* se encuentra un archivo de nombre *Prossesing* donde se muestra la ventana de ejecuicion de Prossesing, donde se ven las diferentes transformaciones aplicadas a los objetos.
 
 ### Código relevante
 
@@ -131,4 +149,4 @@ En la carpeta *media* hay dos archivos, el de nombre *Threejs_rotacion* que mues
 
 ### Aprendizajes y dificultades
 
-En este taller entendi mas a profundidas las transformaciones sobre objetos, como estas pueden varias con respecto a otros parametros como el tiempo y la logica matematica detras de estas transformaciones.
+En este taller entendi mas a profundidas las transformaciones sobre objetos, como estas pueden varias con respecto a otros parametros como el tiempo y la logica matematica detras de estas transformaciones,ademas del aprendizaje de una nueva herramienta como lo es Prosessing.
